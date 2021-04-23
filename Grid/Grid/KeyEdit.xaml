@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grid483W.KeyEdit">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="Output" ></Entry>
+            <Image x:Name="NewImage"/>
+            <Button Text="Upload Image" Margin="10" Padding="10"
+                    CornerRadius="10" 
+                    FontSize="Large" FontAttributes="Bold" 
+                    BackgroundColor="#929394"
+                    Clicked="Upload"/>
+            <Button Text="Create" Margin="10" Padding="10"
+                    CornerRadius="10" 
+                    FontSize="Large" FontAttributes="Bold" 
+                    BackgroundColor="#929394"
+                    Clicked="Finish"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grid483W.MainGrid">
+    <ContentPage.Content>
+        <Grid x:Name="gridLayout" RowSpacing="12" ColumnSpacing="8" BackgroundColor="White">
+            <Label  Text="Edit key:"
+                    Grid.Row="0"
+                    Grid.Column="0"/>
+            <Switch Toggled="OnToggledKey"
+                    ThumbColor="Green"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    x:Name="editMode"
+                    IsToggled="False"/>
+            <Button Text ="Grid" Grid.Row="0" Grid.Column="1" Margin="0.5" Padding="0.5"
+                    CornerRadius="10"
+                    BackgroundColor="Gray"
+                    Clicked="GridButtonClicked"/>
+            <Button Text ="Help" Grid.Row="0" Grid.Column="2" Margin="0.5" Padding="0.5"
+                    CornerRadius="10"
+                    BackgroundColor="Gray"
+                    Clicked="HelpButtonClicked"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

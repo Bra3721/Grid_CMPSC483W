@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grid483W.GridEdit">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="y" Keyboard="Numeric"/>
+            <Entry x:Name="x" Keyboard="Numeric"/>
+            <Button Text="Finish" Margin="10" Padding="10"
+                    CornerRadius="10" 
+                    FontSize="Large" FontAttributes="Bold" 
+                    BackgroundColor="#929394"
+                    Clicked="NewGrid"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
